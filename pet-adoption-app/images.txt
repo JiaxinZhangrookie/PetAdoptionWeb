@@ -1,0 +1,25 @@
+logo_pic.jpg: my personally own picture /src/images/logo_pic.jpg
+logo_dark.jpg: logo pic dark in footer, my personally own picture /src/images/logo_dark.jpg
+2.pic.jpg: first card pic in home, url: https://unsplash.com/photos/xulIYVIbYIc ;license: https://unsplash.com/license
+3.pic.jpg: second card pic in home, url: https://unsplash.com/photos/Hcfwew744z4 ;license: https://unsplash.com/license
+4.pic.jpg: third card pic in home, url: https://unsplash.com/photos/ISg37AI2A-s;license: https://unsplash.com/license
+5.pic.jpg: first card pic in Adopt, url: https://unsplash.com/photos/IbPxGLgJiMI ;license: https://unsplash.com/license
+6.pic.jpg: second card pic in Adopt, url: https://unsplash.com/photos/LEpfefQf4rU ;license: https://unsplash.com/license
+7.pic.jpg: third card pic in Adopt, url:https://unsplash.com/photos/IbPxGLgJiMI ;license: https://unsplash.com/license
+8.pic.jpg: fourth card pic in Adopt, url:https://unsplash.com/photos/U3aF7hgUSrk;license: https://unsplash.com/license ;license: https://unsplash.com/license
+9.pic.jpg: fifth card pic in Adopt, url:https://unsplash.com/photos/73pyV0JJOmE; license: https://unsplash.com/license ;license: https://unsplash.com/license
+10.pic.jpg: sixth card pic in Adopt, url:https://unsplash.com/photos/UtrE5DcgEyg ; license: https://unsplash.com/license
+13.jpg: first slide pic in home, url:https://unsplash.com/photos/9gz3wfHr65U; license: https://unsplash.com/license
+14.jpg: second slide pic in home, url:https://unsplash.com/photos/7mfR5n3XozU; license: https://unsplash.com/license
+15.jpg: third slide pic in home, url:https://unsplash.com/photos/aI3EBLvcyu4; license: https://unsplash.com/license
+adopt_banner.jpg: banner in adopt, url:https://unsplash.com/photos/3hvmrZJTfJU; license: https://unsplash.com/license
+volunteer.jpg: banner in volunteer, url:https://unsplash.com/photos/ORANlqq4Z7g; license: https://unsplash.com/license
+banner.jpg: banner in about, url:https://unsplash.com/photos/jd0hS7Vhn_A; license: https://unsplash.com/license
+background_image.jpg: background in donate, url:https://unsplash.com/photos/qO-PIF84Vxg; license: https://unsplash.com/license
+boston.jpg: first card pic in about, url:https://unsplash.com/photos/W6BUMYEhTG8; license: https://unsplash.com/license
+seattle.jpg: first card pic in about, url:https://unsplash.com/photos/mwO0ofO72J8; license: https://unsplash.com/license
+foster.jpg: first card pic in donate, url:https://unsplash.com/photos/VEjJQrDC5ic; license: https://unsplash.com/license
+pet-care.jpg: second card pic in donate, url:https://unsplash.com/photos/cMtiWjiAvq4; license: https://unsplash.com/license
+pet-sport.jpg: third card pic in donate, url:https://unsplash.com/photos/B53_-Dau9M4; license: https://unsplash.com/license
+pet-training.jpg: fourth card pic in donate, url:https://unsplash.com/photos/WjzZOaYvo_s; license: https://unsplash.com/license
+

@@ -1,0 +1,17 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: white;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #eee;
+  font-family: sans-serif;
+}
+#root {
+  height: 100%;
+}

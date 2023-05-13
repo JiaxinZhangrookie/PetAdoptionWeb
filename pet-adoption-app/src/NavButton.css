@@ -1,0 +1,15 @@
+.slider__navlink.active {
+  background-color: #fd7014;
+}
+
+.slider__navlink {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0 10px 0 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

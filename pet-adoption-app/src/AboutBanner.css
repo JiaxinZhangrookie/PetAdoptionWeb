@@ -1,0 +1,27 @@
+.about-banner {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: calc(100% * (1 / 5));
+}
+
+.about-banner__image {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-heading {
+  display:flex;
+  justify-content: center;
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+
+.about-text {
+  display: flex;
+  padding: 1rem 10rem 1rem 10rem;
+  line-height: 2rem;
+}

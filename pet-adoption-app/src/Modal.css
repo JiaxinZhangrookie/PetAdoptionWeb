@@ -1,0 +1,96 @@
+.modal {
+  position: fixed;
+  /* display: grid;
+  grid-template-columns: repeat(12, 1fr); */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-close {
+  position: absolute;
+  top: 0.25rem;
+  left: 0.25rem;
+  padding-bottom: 1rem;
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 80%;
+  max-width: 500px;
+  font-size: 1.1rem;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-heading {
+  align-self: center;
+}
+
+.modal-name {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form__name,
+.modal-form__email {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+.modal-form__input {
+  width: 100%;
+  padding: 0.625rem;
+  border: 1px solid #ccc;
+  border-radius: 0.3125rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.modal-form__buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 0.25rem;
+}
+
+
+.modal-form__submit {
+  margin-right: 1rem;
+}
+
+.error {
+  color: red;
+  font-size: 1rem;
+}

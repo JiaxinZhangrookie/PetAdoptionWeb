@@ -1,0 +1,175 @@
+.main {
+  padding-bottom: 2rem;
+ }
+
+.main__heading {
+  text-align: center;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+  gap: 1rem;
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+.first-card {
+  display: grid;
+  grid-column: 2/span 10;
+  grid-template-areas: 
+  "heading pic"
+  "text pic"
+  "text pic"
+  ;
+
+  grid-template-columns: 3fr 1fr;
+
+  background-color: white;
+
+  border-radius: 8px;
+  line-height: 1.2rem;
+
+}
+
+.first-card__heading {
+  grid-area: heading;
+
+  text-align: right;
+  color: #dc5802;
+
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+
+.first-card__text {
+  margin: 0;
+  padding: 0 1rem 1rem 2rem;
+  
+  text-align: right;
+}
+
+.first-card__img {
+  grid-area: pic;
+  width: 250px;
+  height: 250px;
+  padding: 1rem;
+
+  justify-content: left;
+}
+
+.second-card {
+  display: grid;
+  grid-column: 2/span 10;
+  grid-template-areas: 
+  "pic heading"
+  "pic text"
+  "pic text"
+  ;
+
+  grid-template-columns: 1fr 3fr;
+
+  background-color: white;
+
+  border-radius: 8px;
+  line-height: 1.2rem;
+
+}
+
+.second-card__heading {
+  grid-area: heading;
+
+  text-align: left;
+  color: #dc5802;
+
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.second-card__img {
+  grid-area: pic;
+  width: 250px;
+  height: 250px;
+  padding: 0.5rem 0.5rem 0.5rem;
+
+  justify-content: left;
+}
+
+.second-card__text {
+  margin: 0;
+  padding: 0 2rem 1rem 1rem;
+
+}
+
+.third-card {
+  display: grid;
+  grid-column: 2/span 10;
+  grid-template-areas: 
+  "heading pic"
+  "text pic"
+  "text pic"
+  ;
+
+  grid-template-columns: 3fr 1fr;
+
+  background-color: white;
+
+  border-radius: 8px;
+  line-height: 1.2rem;
+
+}
+
+.third-card__heading {
+  grid-area: heading;
+
+  text-align: right;
+  color: #dc5802;
+
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+
+.third-card__text {
+  margin: 0;
+  padding: 0 1rem 1rem 2rem;
+
+  text-align: right;
+}
+
+.third-card__img {
+  grid-area: pic;
+  width: 250px;
+  height: 250px;
+  padding: 0.5rem;
+
+  justify-content: left;
+}
+
+
+@media (max-width: 50rem) {
+  .first-card__img {
+    width: 150px;
+    height: 150px;
+  
+    float: right;
+  }
+  
+  .second-card__content {
+    padding: 0.5rem;
+  }
+  
+  .second-card__img {
+    width: 150px;
+    height: 150px;
+  
+    float: left;
+  }
+
+  .third-card__img {
+    width: 150px;
+    height: 150px;
+  
+    float: right;
+  }
+}
