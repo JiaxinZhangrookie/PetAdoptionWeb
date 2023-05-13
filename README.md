@@ -54,7 +54,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
   ```
-   git clone https://github.com/your/repository.git
+   git clone https://github.com/your/repository.git](https://github.com/JiaxinZhangrookie/PetAdoptionWeb.git
   ```
 
 2. Install the dependencies:
